@@ -1,0 +1,22 @@
+.card-header{
+  margin-bottom: 20px;
+  color: #ff0000;
+}
+div{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.card{
+  display: grid;
+  border-radius: 20px;
+}
+.colum{
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
